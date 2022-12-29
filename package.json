@@ -4,8 +4,8 @@
   "description": "tapmad Rest Api",
   "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "server": "nodemon src/server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
     "build": "webpack --config webpack.config.js"
   },
   "author": "DevStax",
