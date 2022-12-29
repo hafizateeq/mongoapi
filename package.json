@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "server": "nodemon src/server.js"
+    "server": "nodemon src/server.js",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "DevStax",
   "license": "ISC",
@@ -20,5 +21,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizateeq/mongoapi.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/hafizateeq/mongoapi/issues"
+  },
+  "homepage": "https://github.com/hafizateeq/mongoapi#readme"
 }
